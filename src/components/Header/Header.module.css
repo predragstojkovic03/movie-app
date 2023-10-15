@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    /* padding-inline: 100px;
+    padding-block: 24px; */
+    padding: 24px 180px;
+
+    background: #212121;
+
+    color: #fff;
+}
+
+.logo {
+    padding: 8px;
+    background: #757575;
+    border-radius: 4px;
+}
+
+.header input {
+    background: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 2px solid #dbdbdb;
+    padding-inline: 8px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    outline: none;
+
+    color: #fafafa7a;
+    transition: all 150ms ease;
+}
+
+.header input:hover {
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+.header input:focus {
+    border-color: #bb86fc;
+}

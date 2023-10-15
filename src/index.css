@@ -5,9 +5,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background: #424242;
+  color: #fff;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.moviesWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+
+  padding: 92px 180px;
+}
+
+.loaderWrapper {
+  height: 400px;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
